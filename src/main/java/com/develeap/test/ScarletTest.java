@@ -9,7 +9,7 @@ import static org.junit.Assert.assertEquals;
  */
 public class ScarletTest {
   @Test
-  public void aTest() {
-    assertEquals(RedGroup.class.getName(),UglyGlobal.state);
+  public void aRedishTest() {
+    assertEquals("This test requires the Red configuration",RedGroup.class.getName(),UglyGlobal.state);
   }
 }

@@ -9,7 +9,12 @@ import static org.junit.Assert.assertEquals;
  */
 public class VermilionTest {
   @Test
-  public void aTest() {
-    assertEquals(RedGroup.class.getName(),UglyGlobal.state);
+  public void aRedTest() {
+    assertEquals("This test requires the Red configuration",RedGroup.class.getName(),UglyGlobal.state);
+  }
+
+  @Test
+  public void aReallyRedTest() {
+    assertEquals("This test requires the Red configuration",RedGroup.class.getName(),UglyGlobal.state);
   }
 }

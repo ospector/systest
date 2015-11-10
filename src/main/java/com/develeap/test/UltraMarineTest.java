@@ -9,7 +9,7 @@ import static org.junit.Assert.assertEquals;
  */
 public class UltraMarineTest {
   @Test
-  public void aTest() {
-    assertEquals(BlueGroup.class.getName(),UglyGlobal.state);
+  public void aVeryBlueTest() {
+    assertEquals("This test requires the Blue configuration",BlueGroup.class.getName(),UglyGlobal.state);
   }
 }

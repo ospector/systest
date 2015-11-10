@@ -9,7 +9,12 @@ import static org.junit.Assert.assertEquals;
  */
 public class AzureTest {
   @Test
-  public void aTest() {
-    assertEquals(BlueGroup.class.getName(),UglyGlobal.state);
+  public void aBlueTest() {
+    assertEquals("This test requires the Blue configuration",BlueGroup.class.getName(),UglyGlobal.state);
+  }
+
+  @Test
+  public void anotherBlueTest() {
+    assertEquals("This test requires the Blue configuration",BlueGroup.class.getName(),UglyGlobal.state);
   }
 }
